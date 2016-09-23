@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.smn.xoxo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="خب لازمه اول کار برای محاسبه اندازه عشقتون یک سری مشخصات زیر رو کامل کنین و بعدشم برو مرحله بعدی"
+                android:gravity="center"
+                android:textSize="17sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text_u"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="خودت"
+                    android:textColor="#f20056"
+                    android:textSize="33sp" />
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/Check_u_mle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="آقا"
+                        android:textColor="#5c604d"
+                        android:textSize="20sp" />
+
+                    <Space
+                        android:layout_width="23dp"
+                        android:layout_height="match_parent" />
+
+                    <RadioButton
+                        android:id="@+id/Check_u_fmle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="خانوم"
+                        android:textColor="#5c604d"
+                        android:textSize="20sp" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/Edit_ur_name"
+                    android:layout_width="80sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="اسم"
+                    android:textColor="#5c604d"
+                    android:textColorHint="#5c604d"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/Edit_u_age"
+                    android:layout_width="80sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="سن"
+                    android:inputType="number"
+                    android:textColor="#5c604d"
+                    android:textColorHint="#5c604d"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text_prtnr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="عشقت"
+                    android:textColor="#f20056"
+                    android:textSize="33sp" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/Check_prtnr_mle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="آقا"
+                        android:textColor="#5c604d"
+                        android:textSize="20sp" />
+
+                    <Space
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent" />
+
+
+                    <RadioButton
+                        android:id="@+id/Check_prtnr_fmle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="خانوم"
+                        android:textColor="#5c604d"
+                        android:textSize="20sp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/Edit_prtnr_name"
+                    android:layout_width="80sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="اسم"
+                    android:textColor="#5c604d"
+                    android:textColorHint="#5c604d"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/Edit_prtnr_age"
+                    android:layout_width="80sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint=" سن"
+                    android:inputType="number"
+                    android:textColor="#5c604d"
+                    android:textColorHint="#5c604d"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/Button_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#ffbad2"
+            android:backgroundTint="#ffbad2"
+            android:text="بعدی"
+            android:textColor="#177f75"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</ScrollView>

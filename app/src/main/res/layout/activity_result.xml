@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbad2"
+    android:orientation="vertical"
+    android:padding="30sp"
+    tools:context="com.example.samane.myapplication.Result">
+
+
+    <TextView
+        android:id="@+id/Text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="55dp"
+        android:textColor="#ff0000"
+        android:textSize="27sp" />
+
+
+    <TextView
+        android:layout_marginTop="72dp"
+        android:layout_gravity="center"
+        android:id="@+id/Text_percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#f20056"
+        android:textSize="52sp"
+        android:textStyle="bold"
+
+        />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.11"></Space>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Button_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="19dp"
+            android:background="#ffbad2"
+            android:text="شروع دوباره تست"
+            android:textColor="#287aa9"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
