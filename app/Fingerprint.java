@@ -67,7 +67,7 @@ public class Fingerprint extends AppCompatActivity {
             @Override
             public void onFinish() {
                 txt_countdownTime.setText("0");
-                long milliseconds = 50;
+                long milliseconds = 80;
                 vibe.vibrate(milliseconds);
 
 
@@ -78,7 +78,7 @@ public class Fingerprint extends AppCompatActivity {
                 dialog.setCancelable(false);
                 dialog.show();
 
-                long delayInMillis = 5000;
+                long delayInMillis = 6000;
                 Timer timer = new Timer();
                 timer.schedule(new TimerTask() {
                     @Override
@@ -115,7 +115,7 @@ public class Fingerprint extends AppCompatActivity {
                     if (((Long) System.currentTimeMillis() - then) < 5000) {
                         Toast.makeText(Fingerprint.this, "Click More!", Toast.LENGTH_SHORT).show();
                         txt_countdownTime.setText("");
-                        long milliseconds = 60;
+                        long milliseconds = 100;
                         vibe.vibrate(milliseconds);
                     }
                 }
